@@ -26,4 +26,4 @@ print('Think of a yes/no question, and press enter to see the answer')
 input()
 
 answer = getAnswer(random.randint(1, 10))
-print(answer)
+print('The answer is', answer, sep = ': ')

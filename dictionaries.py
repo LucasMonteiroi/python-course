@@ -20,7 +20,3 @@ if 'name' in person :
 print('Age found in person with value: ' + str(person.get('age', 0)))
 
 print('Hello my name is ' + str(person['name']) + ', with ' + str(person['age']) + ' old and I am from ' + str(person['country']))
-
-print('Setting default value age to 28')
-person.setdefault('age', 28)
-print(person)

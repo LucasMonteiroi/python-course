@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/lucasmonteiroi/git-repo/python-course/exercises/exception-debug.py", line 32, in <module>
+    makeBox('*', 4, 1)
+  File "/Users/lucasmonteiroi/git-repo/python-course/exercises/exception-debug.py", line 14, in makeBox
+    raise Exception('"width" and "height" must to be greather or equal 2')
+Exception: "width" and "height" must to be greather or equal 2
